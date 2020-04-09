@@ -3,7 +3,7 @@ apply plugin: "de.mannodermaus.android-junit5"
 apply plugin: "com.android.application"
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
     defaultConfig {
         applicationId "ru.spbhse.brainring"
         minSdkVersion 21
@@ -24,7 +24,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    buildToolsVersion '28.0.3'
+    buildToolsVersion '29.0.3'
     sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
 }
 
